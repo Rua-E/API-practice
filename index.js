@@ -7,6 +7,7 @@
 // UNLOCKING THE PROMISE
 async function main() {
   const users = await fetch("https://jsonplaceholder.typicode.com/users");
+  //CONVERTING IT TO JAVASCRIPT
   const usersData = await users.json();
   const userListElement = document.querySelector(".user-list");
   
